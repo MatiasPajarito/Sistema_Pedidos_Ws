@@ -13,8 +13,7 @@ createRoot(document.getElementById('root')).render(
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'  <-- COMENTA ESTA LÍNEA (ponle // al principio)
-import DemoCaburguau from './DemoCaburguau.jsx' // <-- AGREGA ESTA LÍNEA
-import './index.css'
+import DemoCaburguau from './DemoCaburguau' // <-- AGREGA ESTA LÍNEA
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
